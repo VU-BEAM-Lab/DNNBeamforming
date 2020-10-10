@@ -1,0 +1,56 @@
+{
+    "train": [
+        {
+            "file": "train_data/example_phantom_10mm_70mm/chandat1.h5",
+            "N": "9135"
+        },
+        {
+            "file": "train_data/example_phantom_10mm_70mm/chandat2.h5",
+            "N": "9135"
+        },
+        {
+            "file": "train_data/example_phantom_10mm_70mm/chandat3.h5",
+            "N": "9135"
+        },
+        {
+            "file": "train_data/example_phantom_10mm_70mm/chandat4.h5",
+            "N": "9135"
+        },
+        {
+            "file": "train_data/example_phantom_10mm_70mm/chandat5.h5",
+            "N": "9136"
+        },
+        {
+            "file": "train_data/example_phantom_10mm_70mm/chandat6.h5",
+            "N": "9135"
+        },
+        {
+            "file": "train_data/example_phantom_10mm_70mm/chandat7.h5",
+            "N": "9135"
+        },
+        {
+            "file": "train_data/example_phantom_10mm_70mm/chandat8.h5",
+            "N": "9142"
+        }
+    ],
+    "train_eval": [
+        {
+            "file": "train_data/example_phantom_10mm_70mm/chandat1.h5",
+            "N": "9135"
+        },
+        {
+            "file": "train_data/example_phantom_10mm_70mm/chandat2.h5",
+            "N": "9135"
+        }
+    ],
+    "val": [
+        {
+            "file": "train_data/example_phantom_10mm_70mm/chandat9.h5",
+            "N": "9131"
+        },
+        {
+            "file": "train_data/example_phantom_10mm_70mm/chandat10.h5",
+            "N": "9131"
+        }
+    ]
+}

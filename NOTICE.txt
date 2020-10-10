@@ -1,0 +1,29 @@
+DNN Beamforming Repository
+
+The following copyright applies to the files in Section #1: Copyright 2020 Jaime Tierney, Adam Luchies, and Brett Byram
+
+Section #1 {
+
+createTrainingData.m
+createTrainingDataWrapper.m
+phantom10mm.py
+
+}
+
+The following copyright applies to the files in Section #2: Copyright 2020 Jaime Tierney, Adam Luchies, and Brett Byram
+
+Section #2 {
+
+main.py
+dataloader.py
+model.py
+utils.py
+trainer.py
+trainer_forJupyter.py
+
+}
+
+Citing this Repository
+Please cite the following when using this repository code in publications:
+
+[1] Luchies, A. C., and B. C. Byram. "Deep neural networks for ultrasound beamforming." IEEE TMI 37.9 (2018): 2010-2021.
