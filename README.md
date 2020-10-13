@@ -1,6 +1,15 @@
-Copyright 2020 Jaime Tierney, Adam Luchies, and Brett Byram
+# DNN Beamforming Example
 
-These materials are made available under the Apache License, Version 2.0. For details, refer to the LICENSE file.
+## TABLE OF CONTENTS
+
+1. [Overview](#Overview)
+2. [Setup](#Setup)
+3. [Running the Code](#Running-the-Code)
+4. [License](#License)
+5. [Citing](#Citing)
+6. [Acknowledgements](#Acknowledgements)
+
+## OVERVIEW
 
 This repository includes example source code for training a deep neural network regression-based beamformer, as described in the following work:
 
@@ -8,7 +17,7 @@ This repository includes example source code for training a deep neural network 
 
 The networks proposed in [1] operate on frequency domain data. The networks used in this repository operate on time domain data. The general workflow is described below.
 
-GETTING STARTED
+## SETUP
 
 1 - Download anaconda (https://www.anaconda.com/products/individual)
 2 - Set up virtual environment and install necessary packages. For example, via the anaconda powershell prompt on a Windows without a GPU you can use the following:
@@ -27,7 +36,7 @@ pip install git+git://github.com/stared/livelossplot.git
 
 jupyter notebook 
 
-BASIC DNN BEAMFORMING PIPELINE
+## RUNNING THE CODE
 
 1 - Make training data from time delayed RF channel data.
   - NOTE: These data are already made for the purposes of this demo. 
@@ -49,7 +58,19 @@ BASIC DNN BEAMFORMING PIPELINE
   - It is recommended to set up a virtual environment with only the necessary packages installed.
   - The user should specify which model and test data to evaluate: i.e., change the model_path, test_data_path, and test_data_name variables as necessary
   - Example physical phantom and in vivo data are in the test_data folder. *NOTE: These mat files are saved as -v7.3 for h5 loading in python.
+  
+## LICENSE
 
-Please cite the above referenced paper when using any of the code or data within this repository. 
+Copyright 2020 Jaime Tierney, Adam Luchies, and Brett Byram
+
+These materials are made available under the Apache License, Version 2.0. For details, refer to the LICENSE file.
+
+## CITING
+
+Please cite the below referenced paper when using any of the code or data within this repository. 
+
+[1] Luchies, A. C., and B. C. Byram. "Deep neural networks for ultrasound beamforming." IEEE TMI 37.9 (2018): 2010-2021.
+
+## ACKNOWLEDGEMENTS
 
 This work was supported in part by NIH grants R01EB020040 and S10OD016216-01, NSF grant IIS-175099, and by the Data Science Institute at Vanderbilt University.
