@@ -29,15 +29,16 @@ The networks proposed in [1] operate on frequency domain data. The networks used
   - conda install pytorch torchvision cpuonly -c pytorch
   - pip install git+git://github.com/stared/livelossplot.git
 
+3 - Run jupyter notebook from within the folder containing the training and evaluation scripts. For example, via the anaconda powershell prompt, you can launch a jupyter notebook by typing the following:
+  - jupyter notebook
+
 IMPORTANT NOTES: 
 
 (a) - Restart anaconda powershell prompt after livelossplot installation. 
 
-(b) - Make sure to activate the aium environment once restarted.
+(b) - Make sure to activate the aium environment once restarted. 
 
-3 - Run jupyter notebook from within the folder containing the training and evaluation scripts. For example, via the anaconda powershell prompt, you can launch a jupyter notebook by typing the following:
-
-jupyter notebook 
+(c) - Go to https://pytorch.org/ to edit the fourth bullet in step 2 according to your system and GPU availability.
 
 ## RUNNING THE CODE
 
@@ -73,6 +74,7 @@ These materials are made available under the Apache License, Version 2.0. For de
 Please cite the below manuscripts when using any of the code or data within this repository. 
 
 [1] Luchies, A. C., and B. C. Byram. "Deep neural networks for ultrasound beamforming." IEEE TMI 37.9 (2018): 2010-2021.
+
 [2] Luchies, Adam C., and Brett C. Byram. "Training improvements for ultrasound beamforming with deep neural networks." Physics in Medicine & Biology 64.4 (2019): 045018.
 
 ## ACKNOWLEDGEMENTS
