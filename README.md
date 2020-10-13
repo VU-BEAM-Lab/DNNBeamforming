@@ -11,26 +11,27 @@
 
 ## OVERVIEW
 
-This repository includes example source code for training a deep neural network regression-based beamformer, as described in the following work:
+This repository includes example source code for training a deep neural network (DNN) regression-based beamformer, as described in the following work:
 
 [1] Luchies, A. C., and B. C. Byram. "Deep neural networks for ultrasound beamforming." IEEE TMI 37.9 (2018): 2010-2021.
 
-The networks proposed in [1] operate on frequency domain data. The networks used in this repository operate on time domain data. The general workflow is described below.
+The networks proposed in [1] operate on frequency domain data. The networks used in this repository operate on time domain data. The general workflow is described below and in the included PDF: supplementary.pdf
 
 ## SETUP
 
 1 - Download anaconda (https://www.anaconda.com/products/individual)
 2 - Set up virtual environment and install necessary packages. For example, via the anaconda powershell prompt on a Windows without a GPU you can use the following:
+  - conda create --name aium
+  - conda activate aium
+  - conda install numpy scipy h5py matplotlib pandas jupyter
+  - conda install pytorch torchvision cpuonly -c pytorch
+  - pip install git+git://github.com/stared/livelossplot.git
 
-conda create --name aium
-conda activate aium
-conda install numpy scipy h5py matplotlib pandas jupyter
-conda install pytorch torchvision cpuonly -c pytorch
-pip install git+git://github.com/stared/livelossplot.git
+IMPORTANT NOTES: 
 
-*IMPORTANT NOTES: 
-(a) Restart anaconda powershell prompt after livelossplot installation. 
-(b) Make sure to activate the aium environment once restarted.
+(a) - Restart anaconda powershell prompt after livelossplot installation. 
+
+(b) - Make sure to activate the aium environment once restarted.
 
 3 - Run jupyter notebook from within the folder containing the training and evaluation scripts. For example, via the anaconda powershell prompt, you can launch a jupyter notebook by typing the following:
 
@@ -67,9 +68,10 @@ These materials are made available under the Apache License, Version 2.0. For de
 
 ## CITING
 
-Please cite the below referenced paper when using any of the code or data within this repository. 
+Please cite the below manuscripts when using any of the code or data within this repository. 
 
 [1] Luchies, A. C., and B. C. Byram. "Deep neural networks for ultrasound beamforming." IEEE TMI 37.9 (2018): 2010-2021.
+[2] Luchies, Adam C., and Brett C. Byram. "Training improvements for ultrasound beamforming with deep neural networks." Physics in Medicine & Biology 64.4 (2019): 045018.
 
 ## ACKNOWLEDGEMENTS
 
