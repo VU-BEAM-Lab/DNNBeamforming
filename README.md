@@ -73,9 +73,9 @@ These materials are made available under the Apache License, Version 2.0. For de
 
 Please cite the below manuscripts when using any of the code or data within this repository. 
 
-[1] Luchies, A. C., and B. C. Byram. "Deep neural networks for ultrasound beamforming." IEEE TMI 37.9 (2018): 2010-2021.
+[1] - Luchies, A. C., and B. C. Byram. "Deep neural networks for ultrasound beamforming." IEEE TMI 37.9 (2018): 2010-2021.
 
-[2] Luchies, Adam C., and Brett C. Byram. "Training improvements for ultrasound beamforming with deep neural networks." Physics in Medicine & Biology 64.4 (2019): 045018.
+[2] - Luchies, Adam C., and Brett C. Byram. "Training improvements for ultrasound beamforming with deep neural networks." Physics in Medicine & Biology 64.4 (2019): 045018.
 
 ## ACKNOWLEDGEMENTS
 
