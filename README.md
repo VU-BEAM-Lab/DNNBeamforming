@@ -52,12 +52,12 @@ IMPORTANT NOTE: Go to https://pytorch.org/ to edit the fourth bullet in step 2 a
 
 3 - Train a network using provided jupyter notebook or python script (train_network_example).
   - Necessary python packages are indicated at the top of each script.
-  - It is recommended to set up a virtual environment with only the necessary packages installed.
+  - It is recommended to set up a virtual environment with only the necessary packages installed (see Setup step 2).
   - There is a 'DEFINE MODEL PARAMS' section in the training scripts which the user can edit to specify output file information and adjust various hyperparameters.
 
 4 - Evaluate network performance using the provided jupyter notebook or python script (evaluate_network_example)
   - Necessary python packages are indicated at the top of each script.
-  - It is recommended to set up a virtual environment with only the necessary packages installed.
+  - It is recommended to set up a virtual environment with only the necessary packages installed (see Setup step 2).
   - The user should specify which model and test data to evaluate: i.e., change the model_path, test_data_path, and test_data_name variables as necessary
   - Example physical phantom and in vivo data are in the test_data folder. *NOTE: These mat files are saved as -v7.3 for h5 loading in python.
   
