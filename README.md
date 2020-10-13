@@ -19,26 +19,24 @@ The networks proposed in [1] operate on frequency domain data. The networks used
 
 ## SETUP
 
-1 - Download anaconda 
+1 - Download anaconda here:
   - https://www.anaconda.com/products/individual
 
-2 - Set up virtual environment and install necessary packages. For example, via the anaconda powershell prompt on a Windows without a GPU you can use the following:
+2 - Set up virtual environment and install necessary packages. For example, via the anaconda powershell prompt on a Windows without a GPU you can use the following commands:
   - conda create --name aium
   - conda activate aium
   - conda install numpy scipy h5py matplotlib pandas jupyter
   - conda install pytorch torchvision cpuonly -c pytorch
   - pip install git+git://github.com/stared/livelossplot.git
+  
+3 - Close out of current terminal or powershell prompt and open a new one
+  - This is to complete the livelossplot installation
+  - Make sure to activate the aium environment once in the new terminal or prompt
 
-3 - Run jupyter notebook from within the folder containing the training and evaluation scripts. For example, via the anaconda powershell prompt, you can launch a jupyter notebook by typing the following:
+4 - Run jupyter notebook from within the folder containing the training and evaluation scripts. For example, via the anaconda powershell prompt, you can launch a jupyter notebook by typing the following:
   - jupyter notebook
 
-IMPORTANT NOTES: 
-
-(a) - Restart anaconda powershell prompt after livelossplot installation. 
-
-(b) - Make sure to activate the aium environment once restarted. 
-
-(c) - Go to https://pytorch.org/ to edit the fourth bullet in step 2 according to your system and GPU availability.
+IMPORTANT NOTE: Go to https://pytorch.org/ to edit the fourth bullet in step 2 according to your system and GPU availability.
 
 ## RUNNING THE CODE
 
