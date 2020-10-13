@@ -20,6 +20,7 @@ The networks proposed in [1] operate on frequency domain data. The networks used
 ## SETUP
 
 1 - Download anaconda (https://www.anaconda.com/products/individual)
+
 2 - Set up virtual environment and install necessary packages. For example, via the anaconda powershell prompt on a Windows without a GPU you can use the following:
   - conda create --name aium
   - conda activate aium
