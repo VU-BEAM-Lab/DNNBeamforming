@@ -8,6 +8,7 @@
 4. [License](#License)
 5. [Citing](#Citing)
 6. [Acknowledgements](#Acknowledgements)
+7. [Contact](#Contact)
 
 ## OVERVIEW
 
@@ -78,3 +79,7 @@ Please cite the below manuscripts when using any of the code or data within this
 ## ACKNOWLEDGEMENTS
 
 This work was supported in part by NIH grants R01EB020040 and S10OD016216-01, NSF grant IIS-175099, and by the Data Science Institute at Vanderbilt University.
+
+## CONTACT
+
+Please contact Jaime Tierney with any quesitons or comments: jaime.e.tierney@vanderbilt.edu
